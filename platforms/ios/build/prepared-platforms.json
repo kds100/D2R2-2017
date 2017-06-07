@@ -1,0 +1,6 @@
+{
+    "nativescript-statusbar": true,
+    "nativescript-telerik-ui": true,
+    "tns-core-modules": true,
+    "tns-core-modules-widgets": true
+}

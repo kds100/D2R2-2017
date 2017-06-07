@@ -1,0 +1,61 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+  xmlns:widgets="shared/widgets"
+  loaded="pageLoaded"
+  navigatedTo="navigatedTo"
+  backgroundColor="{{ blackBackground ? 'black' : 'white' }}">
+
+  <page.actionBar>
+    <action-bar title="Settings">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+
+      <!-- Settings page content -->
+      <!--<grid-layout columns="3*, *" rows="100, *">
+        <label text="Use a black background?" color="{{ blackBackground ? 'white' : 'black' }}" textWrap="true" col="0" row="0" />
+        <switch checked="{{ blackBackground }}" col="1" row="0" />
+
+
+
+      </grid-layout>-->
+
+
+        <ListView items="{{ userdata }}" >
+    <ListView.itemTemplate>
+
+ <!--<GridLayout class="list-group-item" rows="*" columns="auto, *">-->
+            <!--<Image row="0" col="0" src="{{ itemImage }}" class="thumb img-rounded" />-->
+            <StackLayout  >
+                <Label  text="{{ firstName }}" class="list-group-item-heading" />
+                <Label  text="{{ lastName }}" class="list-group-item-text" />
+                <Label  text="{{ ridelength }}" class="list-group-item-text" />
+            </StackLayout>
+        <!--</GridLayout>-->
+
+       <!--<StackLayout >-->
+                <!--<Label text="{{ itemName }}"  />-->
+                
+            <!--</StackLayout>-->
+    </ListView.itemTemplate>
+ </ListView>
+
+
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

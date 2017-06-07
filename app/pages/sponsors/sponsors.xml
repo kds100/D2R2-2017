@@ -1,0 +1,38 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+  xmlns:widgets="shared/widgets"
+  loaded="pageLoaded"
+  navigatedTo="navigatedTo">
+
+  <page.actionBar>
+    <action-bar title="D2R2 Sponsors 2017">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Sponsors page contents -->
+      <grid-layout columns="*" rows="*">
+       <Label id="description" text="D2R2 2017" textWrap="true" />
+       <!--<switch checked="{{ blackBackground }}" col="1" row="0" />-->
+        <ListView items="{{ title }}" id="listview"  itemTap="onItemTap" class="list-group">
+          
+        </ListView>
+        </grid-layout>
+      <!--</stack-layout>-->
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

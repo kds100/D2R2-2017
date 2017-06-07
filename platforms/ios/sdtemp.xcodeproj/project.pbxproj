@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		01496FDEC3E64698A4E779CB /* watch-172x172.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF03A1999D04923B4AE87FD /* watch-172x172.png */; };
+		08E2236A61CD46F7A0768426 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA052DEE0A04D9E8D2DF746 /* Default-568h@2x.png */; };
+		125CD04FE4EE44C6A026D3B4 /* ic_menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F41524FC9874435AC7B08F0 /* ic_menu@3x.png */; };
+		1A7D9AA3C1984F25A088A677 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F84C8FB4A36D473E998509E9 /* icon-72@2x.png */; };
+		1AC3A5CF943D453C93D38C4F /* watch-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A612FCD8992482ABA2074EB /* watch-80x80.png */; };
+		1B1F01E132E94B998148085F /* TelerikAppFeedback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8CF6A1BAD04C9D95DCF8D2 /* TelerikAppFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C93B92A063E444EBD2FA4CC /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 221C78A6C04D4E979C59852B /* Default-Landscape-667h@2x.png */; };
+		241131A25A954B77A1FA9A90 /* Default-Landscape-1366@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E89243835F4CCCBED541B8 /* Default-Landscape-1366@2x.png */; };
+		2E811FF9FB51405C964722AF /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A11E99AD3C4EC6B43FA22F /* Default-Landscape-568h@2x.png */; };
+		3178383801F2430E82D8CA11 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 89459B370B1B4EDB8A8071F5 /* icon-72.png */; };
+		33FAEB89FC624E43AC339722 /* Default-Landscape-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1787B0490F4D46E9A3CBCC0A /* Default-Landscape-667h.png */; };
+		34E9C176195543A8A01CAE9D /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975C137079D049CF82CDECC4 /* TelerikUI.framework */; };
+		3CA961B941F743C084235E63 /* TelerikAppFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8CF6A1BAD04C9D95DCF8D2 /* TelerikAppFeedback.framework */; };
+		3D4C55206D624104B6AEC613 /* watch-87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 202E60BE700F4033B39ED826 /* watch-87x87.png */; };
+		3D6B7426BFDD4838A214CACD /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB7AB675AD644CC49E2865DA /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		46960BDFCF4D426382147F6C /* watch-196x196.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A92ACE5B2484AE58B5CDEAA /* watch-196x196.png */; };
+		53B243307B6B42CD99170283 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB0C20CB16444C9F41931B /* Icon-Small.png */; };
+		5EF8E3C825334C90A7A3D140 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B27FA3FFC79457793E059F6 /* Icon-40@3x.png */; };
+		6250A0A406D94E569B0E4EAE /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = F38C366087E34BB4BD52860D /* Default-Landscape-736h.png */; };
+		6DBF8C3BB2964D01B826EB34 /* watch-88x88.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE70900B6A14215AB09E374 /* watch-88x88.png */; };
+		6EE218C001D9473E83B40529 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F7811FB2ED411AB5DF05D5 /* Icon-60@3x.png */; };
+		78EE84137AC74D23B117F521 /* watch-55x55.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C7C8974287413E9457B258 /* watch-55x55.png */; };
+		78F485E027FB4476A4150421 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7404BD0A844E5A09D393D /* Default-Landscape@2x.png */; };
+		7A93BEA5F29C4D23975CFB38 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = F90D54E2725C4A869FBF868E /* icon-60.png */; };
+		7E3D4976A9504441800D3AE7 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 170A7610EDD2493481655CCF /* Icon-Small@2x.png */; };
+		7FB92B9408B0496C814DBC7F /* watch-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FC8DCE284F4C0EA2872897 /* watch-48x48.png */; };
+		8394B260C43D4473897C66A0 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBE16BD49148B89B7E4103 /* icon-76.png */; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		8B54B66E2EF7404F8BD19117 /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A42FEEE9214BFAA3D07C70 /* Default-Landscape@3x.png */; };
+		8B5B5450A03F4D17B1B45752 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF0ABDBEE004D42BA93B48F /* icon-60@2x.png */; };
+		8DF4240B759447CF8DB65FA8 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 469A1BAF25BD4CE38FE95F36 /* Default-Landscape.png */; };
+		A2AB2ADB5F6F4CF7B262DDCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7A3C01178B45BA891657C5 /* LaunchScreen.xib */; };
+		A61AB64303FA4623A36EC2B1 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CDA782778F4BC9ABCCC1CA /* Default-736h@3x.png */; };
+		A8A85CDCECA743E3A695F3E6 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C923862A7D441D92A2C928 /* Default-Portrait@2x.png */; };
+		AEAF26467CFA416098187A10 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B4D40D8A345288F0475EE /* icon@2x.png */; };
+		AF4952C182E94B6984F5125B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F89D2CE4FA4EC1AE9130C1 /* Default@2x.png */; };
+		B481F7F1B80F4379A4A30CA8 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D7EC26A6D54931B4F64545 /* Default-667h.png */; };
+		B8287F99C00743EDBA39FC9F /* ic_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 60384E9311A846C1A29C957F /* ic_menu.png */; };
+		C155DDBF36134019AB6D682E /* watch-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AFE61806064A0C8ED3D43E /* watch-58x58.png */; };
+		C3B957554F994D96923F06F9 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7AB675AD644CC49E2865DA /* TNSWidgets.framework */; };
+		C58A2813C9464F98AB3C035A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0F345CCEEA4392B3226E73 /* icon.png */; };
+		CB9E053CEA344737ACC35B26 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B7506C0BF14DC194701FC7 /* Icon-Small-50.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		CDEBFB869A05411EBE80BE2F /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60AB8C88874E4FA290ED5BC8 /* icon-76@2x.png */; };
+		CDF8D63C938447D8B45ECA5A /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520163F7E4014FCB84D43B73 /* Default-667h@2x.png */; };
+		CF7CD52A26FE4BEF99BE1EF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1320BA7BD0044DB8A6CF38CC /* Default.png */; };
+		D33AF19259624CACB25B1885 /* ic_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A351BEEE36A64A8B945A093F /* ic_menu@2x.png */; };
+		D47051E524F34287A79B7077 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE82D6CAAAF4823B2F51DFF /* Icon-Small-50@2x.png */; };
+		F1C4C2F822664CC1A7A5673A /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E7E2C1F91C4F1199994594 /* icon-40.png */; };
+		F52AD35E9DA14B21812C866A /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = C9752A49827C459B960721E0 /* Default-736h.png */; };
+		F7FCD58CB57C4FB9A6FCBB9B /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2BCA8542A7424B94BCFE95 /* icon-40@2x.png */; };
+		FA238408451A4755B8D7C0EE /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = B56C559A017C439893EC6102 /* Default-Portrait.png */; };
+		FAB05A102A21491FA7B61634 /* icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B4F5A00B1442BBEDD73BF /* icon-83.5@2x.png */; };
+		FAE61423E0FB417B81189BA6 /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 975C137079D049CF82CDECC4 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB653CBD235D43048234CEBE /* Default-Portrait-1366@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E948F2D5B6394A45B0C38DBE /* Default-Portrait-1366@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B1F01E132E94B998148085F /* TelerikAppFeedback.framework in Embed Frameworks */,
+				FAE61423E0FB417B81189BA6 /* TelerikUI.framework in Embed Frameworks */,
+				3D6B7426BFDD4838A214CACD /* TNSWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00A11E99AD3C4EC6B43FA22F /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "sdtemp/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		0A612FCD8992482ABA2074EB /* watch-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-80x80.png"; path = "sdtemp/Resources/watch-80x80.png"; sourceTree = "<group>"; };
+		1320BA7BD0044DB8A6CF38CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = sdtemp/Resources/Default.png; sourceTree = "<group>"; };
+		170A7610EDD2493481655CCF /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "sdtemp/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1787B0490F4D46E9A3CBCC0A /* Default-Landscape-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h.png"; path = "sdtemp/Resources/Default-Landscape-667h.png"; sourceTree = "<group>"; };
+		202E60BE700F4033B39ED826 /* watch-87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-87x87.png"; path = "sdtemp/Resources/watch-87x87.png"; sourceTree = "<group>"; };
+		21A42FEEE9214BFAA3D07C70 /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "sdtemp/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		221C78A6C04D4E979C59852B /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "sdtemp/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		26F7811FB2ED411AB5DF05D5 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "sdtemp/Resources/Icon-60@3x.png"; sourceTree = "<group>"; };
+		29C923862A7D441D92A2C928 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "sdtemp/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		40AFE61806064A0C8ED3D43E /* watch-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-58x58.png"; path = "sdtemp/Resources/watch-58x58.png"; sourceTree = "<group>"; };
+		469A1BAF25BD4CE38FE95F36 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "sdtemp/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		4B27FA3FFC79457793E059F6 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "sdtemp/Resources/Icon-40@3x.png"; sourceTree = "<group>"; };
+		520163F7E4014FCB84D43B73 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "sdtemp/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		59E7E2C1F91C4F1199994594 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "sdtemp/Resources/icon-40.png"; sourceTree = "<group>"; };
+		5E2BCA8542A7424B94BCFE95 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "sdtemp/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		60384E9311A846C1A29C957F /* ic_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_menu.png; path = sdtemp/Resources/ic_menu.png; sourceTree = "<group>"; };
+		60AB8C88874E4FA290ED5BC8 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "sdtemp/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		62CDA782778F4BC9ABCCC1CA /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "sdtemp/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		6A8CF6A1BAD04C9D95DCF8D2 /* TelerikAppFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikAppFeedback.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikAppFeedback.framework"; sourceTree = "<group>"; };
+		6B0F345CCEEA4392B3226E73 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = sdtemp/Resources/icon.png; sourceTree = "<group>"; };
+		6F41524FC9874435AC7B08F0 /* ic_menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_menu@3x.png"; path = "sdtemp/Resources/ic_menu@3x.png"; sourceTree = "<group>"; };
+		7DF03A1999D04923B4AE87FD /* watch-172x172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-172x172.png"; path = "sdtemp/Resources/watch-172x172.png"; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* sdtemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdtemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* sdtemp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sdtemp-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* sdtemp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sdtemp-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* sdtemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdtemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89459B370B1B4EDB8A8071F5 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "sdtemp/Resources/icon-72.png"; sourceTree = "<group>"; };
+		8A92ACE5B2484AE58B5CDEAA /* watch-196x196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-196x196.png"; path = "sdtemp/Resources/watch-196x196.png"; sourceTree = "<group>"; };
+		8DCBE16BD49148B89B7E4103 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "sdtemp/Resources/icon-76.png"; sourceTree = "<group>"; };
+		8EA052DEE0A04D9E8D2DF746 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "sdtemp/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		975C137079D049CF82CDECC4 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
+		9B3B4D40D8A345288F0475EE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "sdtemp/Resources/icon@2x.png"; sourceTree = "<group>"; };
+		A2B7506C0BF14DC194701FC7 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "sdtemp/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		A351BEEE36A64A8B945A093F /* ic_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_menu@2x.png"; path = "sdtemp/Resources/ic_menu@2x.png"; sourceTree = "<group>"; };
+		AB7AB675AD644CC49E2865DA /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		B0E89243835F4CCCBED541B8 /* Default-Landscape-1366@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-1366@2x.png"; path = "sdtemp/Resources/Default-Landscape-1366@2x.png"; sourceTree = "<group>"; };
+		B1DB0C20CB16444C9F41931B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "sdtemp/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		B56C559A017C439893EC6102 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "sdtemp/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		B5D7EC26A6D54931B4F64545 /* Default-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h.png"; path = "sdtemp/Resources/Default-667h.png"; sourceTree = "<group>"; };
+		BAE82D6CAAAF4823B2F51DFF /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "sdtemp/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		C5F89D2CE4FA4EC1AE9130C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "sdtemp/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		C9752A49827C459B960721E0 /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h.png"; path = "sdtemp/Resources/Default-736h.png"; sourceTree = "<group>"; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		D1C7C8974287413E9457B258 /* watch-55x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-55x55.png"; path = "sdtemp/Resources/watch-55x55.png"; sourceTree = "<group>"; };
+		D2FC8DCE284F4C0EA2872897 /* watch-48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-48x48.png"; path = "sdtemp/Resources/watch-48x48.png"; sourceTree = "<group>"; };
+		DA7A3C01178B45BA891657C5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = sdtemp/Resources/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC8B4F5A00B1442BBEDD73BF /* icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-83.5@2x.png"; path = "sdtemp/Resources/icon-83.5@2x.png"; sourceTree = "<group>"; };
+		E948F2D5B6394A45B0C38DBE /* Default-Portrait-1366@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait-1366@2x.png"; path = "sdtemp/Resources/Default-Portrait-1366@2x.png"; sourceTree = "<group>"; };
+		ECE70900B6A14215AB09E374 /* watch-88x88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watch-88x88.png"; path = "sdtemp/Resources/watch-88x88.png"; sourceTree = "<group>"; };
+		F38C366087E34BB4BD52860D /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-736h.png"; path = "sdtemp/Resources/Default-Landscape-736h.png"; sourceTree = "<group>"; };
+		F84C8FB4A36D473E998509E9 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "sdtemp/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		F90D54E2725C4A869FBF868E /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "sdtemp/Resources/icon-60.png"; sourceTree = "<group>"; };
+		FAF0ABDBEE004D42BA93B48F /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "sdtemp/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		FCA7404BD0A844E5A09D393D /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "sdtemp/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA961B941F743C084235E63 /* TelerikAppFeedback.framework in Frameworks */,
+				34E9C176195543A8A01CAE9D /* TelerikUI.framework in Frameworks */,
+				C3B957554F994D96923F06F9 /* TNSWidgets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* sdtemp */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* sdtemp.app */,
+				858B843318CA22B800AB12DE /* sdtemp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A8CF6A1BAD04C9D95DCF8D2 /* TelerikAppFeedback.framework */,
+				975C137079D049CF82CDECC4 /* TelerikUI.framework */,
+				AB7AB675AD644CC49E2865DA /* TNSWidgets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* sdtemp */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = sdtemp;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* sdtemp-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* sdtemp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EA052DEE0A04D9E8D2DF746 /* Default-568h@2x.png */,
+				520163F7E4014FCB84D43B73 /* Default-667h@2x.png */,
+				62CDA782778F4BC9ABCCC1CA /* Default-736h@3x.png */,
+				00A11E99AD3C4EC6B43FA22F /* Default-Landscape-568h@2x.png */,
+				221C78A6C04D4E979C59852B /* Default-Landscape-667h@2x.png */,
+				469A1BAF25BD4CE38FE95F36 /* Default-Landscape.png */,
+				FCA7404BD0A844E5A09D393D /* Default-Landscape@2x.png */,
+				21A42FEEE9214BFAA3D07C70 /* Default-Landscape@3x.png */,
+				B56C559A017C439893EC6102 /* Default-Portrait.png */,
+				29C923862A7D441D92A2C928 /* Default-Portrait@2x.png */,
+				1320BA7BD0044DB8A6CF38CC /* Default.png */,
+				C5F89D2CE4FA4EC1AE9130C1 /* Default@2x.png */,
+				A2B7506C0BF14DC194701FC7 /* Icon-Small-50.png */,
+				BAE82D6CAAAF4823B2F51DFF /* Icon-Small-50@2x.png */,
+				B1DB0C20CB16444C9F41931B /* Icon-Small.png */,
+				170A7610EDD2493481655CCF /* Icon-Small@2x.png */,
+				DA7A3C01178B45BA891657C5 /* LaunchScreen.xib */,
+				60384E9311A846C1A29C957F /* ic_menu.png */,
+				A351BEEE36A64A8B945A093F /* ic_menu@2x.png */,
+				6F41524FC9874435AC7B08F0 /* ic_menu@3x.png */,
+				59E7E2C1F91C4F1199994594 /* icon-40.png */,
+				5E2BCA8542A7424B94BCFE95 /* icon-40@2x.png */,
+				F90D54E2725C4A869FBF868E /* icon-60.png */,
+				FAF0ABDBEE004D42BA93B48F /* icon-60@2x.png */,
+				89459B370B1B4EDB8A8071F5 /* icon-72.png */,
+				F84C8FB4A36D473E998509E9 /* icon-72@2x.png */,
+				8DCBE16BD49148B89B7E4103 /* icon-76.png */,
+				60AB8C88874E4FA290ED5BC8 /* icon-76@2x.png */,
+				6B0F345CCEEA4392B3226E73 /* icon.png */,
+				9B3B4D40D8A345288F0475EE /* icon@2x.png */,
+				B5D7EC26A6D54931B4F64545 /* Default-667h.png */,
+				C9752A49827C459B960721E0 /* Default-736h.png */,
+				B0E89243835F4CCCBED541B8 /* Default-Landscape-1366@2x.png */,
+				1787B0490F4D46E9A3CBCC0A /* Default-Landscape-667h.png */,
+				F38C366087E34BB4BD52860D /* Default-Landscape-736h.png */,
+				E948F2D5B6394A45B0C38DBE /* Default-Portrait-1366@2x.png */,
+				4B27FA3FFC79457793E059F6 /* Icon-40@3x.png */,
+				26F7811FB2ED411AB5DF05D5 /* Icon-60@3x.png */,
+				DC8B4F5A00B1442BBEDD73BF /* icon-83.5@2x.png */,
+				7DF03A1999D04923B4AE87FD /* watch-172x172.png */,
+				8A92ACE5B2484AE58B5CDEAA /* watch-196x196.png */,
+				D2FC8DCE284F4C0EA2872897 /* watch-48x48.png */,
+				D1C7C8974287413E9457B258 /* watch-55x55.png */,
+				40AFE61806064A0C8ED3D43E /* watch-58x58.png */,
+				0A612FCD8992482ABA2074EB /* watch-80x80.png */,
+				202E60BE700F4033B39ED826 /* watch-87x87.png */,
+				ECE70900B6A14215AB09E374 /* watch-88x88.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* sdtemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "sdtemp" */;
+			buildPhases = (
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sdtemp;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* sdtemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 830;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "sdtemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* sdtemp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				08E2236A61CD46F7A0768426 /* Default-568h@2x.png in Resources */,
+				CDF8D63C938447D8B45ECA5A /* Default-667h@2x.png in Resources */,
+				A61AB64303FA4623A36EC2B1 /* Default-736h@3x.png in Resources */,
+				2E811FF9FB51405C964722AF /* Default-Landscape-568h@2x.png in Resources */,
+				1C93B92A063E444EBD2FA4CC /* Default-Landscape-667h@2x.png in Resources */,
+				8DF4240B759447CF8DB65FA8 /* Default-Landscape.png in Resources */,
+				78F485E027FB4476A4150421 /* Default-Landscape@2x.png in Resources */,
+				8B54B66E2EF7404F8BD19117 /* Default-Landscape@3x.png in Resources */,
+				FA238408451A4755B8D7C0EE /* Default-Portrait.png in Resources */,
+				A8A85CDCECA743E3A695F3E6 /* Default-Portrait@2x.png in Resources */,
+				CF7CD52A26FE4BEF99BE1EF2 /* Default.png in Resources */,
+				AF4952C182E94B6984F5125B /* Default@2x.png in Resources */,
+				CB9E053CEA344737ACC35B26 /* Icon-Small-50.png in Resources */,
+				D47051E524F34287A79B7077 /* Icon-Small-50@2x.png in Resources */,
+				53B243307B6B42CD99170283 /* Icon-Small.png in Resources */,
+				7E3D4976A9504441800D3AE7 /* Icon-Small@2x.png in Resources */,
+				A2AB2ADB5F6F4CF7B262DDCA /* LaunchScreen.xib in Resources */,
+				B8287F99C00743EDBA39FC9F /* ic_menu.png in Resources */,
+				D33AF19259624CACB25B1885 /* ic_menu@2x.png in Resources */,
+				125CD04FE4EE44C6A026D3B4 /* ic_menu@3x.png in Resources */,
+				F1C4C2F822664CC1A7A5673A /* icon-40.png in Resources */,
+				F7FCD58CB57C4FB9A6FCBB9B /* icon-40@2x.png in Resources */,
+				7A93BEA5F29C4D23975CFB38 /* icon-60.png in Resources */,
+				8B5B5450A03F4D17B1B45752 /* icon-60@2x.png in Resources */,
+				3178383801F2430E82D8CA11 /* icon-72.png in Resources */,
+				1A7D9AA3C1984F25A088A677 /* icon-72@2x.png in Resources */,
+				8394B260C43D4473897C66A0 /* icon-76.png in Resources */,
+				CDEBFB869A05411EBE80BE2F /* icon-76@2x.png in Resources */,
+				C58A2813C9464F98AB3C035A /* icon.png in Resources */,
+				AEAF26467CFA416098187A10 /* icon@2x.png in Resources */,
+				B481F7F1B80F4379A4A30CA8 /* Default-667h.png in Resources */,
+				F52AD35E9DA14B21812C866A /* Default-736h.png in Resources */,
+				241131A25A954B77A1FA9A90 /* Default-Landscape-1366@2x.png in Resources */,
+				33FAEB89FC624E43AC339722 /* Default-Landscape-667h.png in Resources */,
+				6250A0A406D94E569B0E4EAE /* Default-Landscape-736h.png in Resources */,
+				FB653CBD235D43048234CEBE /* Default-Portrait-1366@2x.png in Resources */,
+				5EF8E3C825334C90A7A3D140 /* Icon-40@3x.png in Resources */,
+				6EE218C001D9473E83B40529 /* Icon-60@3x.png in Resources */,
+				FAB05A102A21491FA7B61634 /* icon-83.5@2x.png in Resources */,
+				01496FDEC3E64698A4E779CB /* watch-172x172.png in Resources */,
+				46960BDFCF4D426382147F6C /* watch-196x196.png in Resources */,
+				7FB92B9408B0496C814DBC7F /* watch-48x48.png in Resources */,
+				78EE84137AC74D23B117F521 /* watch-55x55.png in Resources */,
+				C155DDBF36134019AB6D682E /* watch-58x58.png in Resources */,
+				1AC3A5CF943D453C93D38C4F /* watch-80x80.png in Resources */,
+				3D4C55206D624104B6AEC613 /* watch-87x87.png in Resources */,
+				6DBF8C3BB2964D01B826EB34 /* watch-88x88.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sdtemp/sdtemp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/sdtemp/sdtemp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.sdtemp;
+				PRODUCT_NAME = sdtemp;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sdtemp/sdtemp-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/sdtemp/sdtemp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.sdtemp;
+				PRODUCT_NAME = sdtemp;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "sdtemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "sdtemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}

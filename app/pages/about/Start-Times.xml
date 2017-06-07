@@ -1,0 +1,36 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+  xmlns:widgets="shared/widgets"
+  xmlns:statusbar="nativescript-statusbar"
+  loaded="pageLoaded">
+
+  <statusbar:StatusBar ios:barStyle="light" />
+
+  <page.actionBar>
+    <action-bar title="D2R2 Ride Starting Times">
+    <!-- Back Button -->
+    <ActionItem ios.position="left" text="< Back" tap="onBack"/>
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+    
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      <GridLayout  rows="auto,auto" columns="auto,auto" horizontalAlignment="center">
+    <Label row="0" col="0" text="180K"/>
+    <label row="0" col="1" text="6:00 AM"/>
+    <Label row="1" col="0" text="100K"/>
+    <label row="1" col="1" text="9:00 AM"/>
+</GridLayout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

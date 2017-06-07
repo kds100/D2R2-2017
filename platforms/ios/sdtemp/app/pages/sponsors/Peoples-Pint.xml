@@ -1,0 +1,41 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+  xmlns:widgets="shared/widgets"
+  xmlns:statusbar="nativescript-statusbar"
+  loaded="pageLoaded">
+
+  <statusbar:StatusBar ios:barStyle="light" />
+
+  <page.actionBar>
+    <action-bar title="D2R2 Sponsors">
+    <!-- Back Button -->
+    <ActionItem ios.position="left" text="< Back" tap="onBack"/>
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+    
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+ <!-- Home page contents -->
+ <stack-layout>
+      <!--<stack-layout loaded="contentLoaded">-->
+      <label text="The People's Pint" margin="20" horizontalAlignment="left" textWrap="true" fontsize="30"/>
+<label text="open at 11 am daily for lunch and dinner" margin="20" horizontalAlignment="center" textWrap="true" />
+
+      
+      <label text="24 Federal St. Greenfield MA 01301" margin="20" horizontalAlignment="center" textWrap="true" />
+        <image src="~/shared/resources/sponsors/pint_interior.jpg" id="logo" tap="fun" height="800" />
+        
+       
+      </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>
